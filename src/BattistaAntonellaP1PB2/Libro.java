@@ -6,6 +6,7 @@ public abstract class Libro {
 	private String codigo;
 	private String nombre;
 	private String autor;
+	private Boolean fuePrestado;
 	
 	Libro(String codigo, String nombre, String autor) {
 		this.codigo = codigo;
@@ -36,4 +37,5 @@ public abstract class Libro {
 	public void setAutor(String autor) {
 		this.autor = autor;
 	}
+	
 }

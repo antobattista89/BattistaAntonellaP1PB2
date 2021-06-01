@@ -8,7 +8,7 @@ public class Historia extends Libro implements IFotocopiable {
 	}
 
 	@Override
-	public Boolean eSFotocopiable() {
+	public Boolean esFotocopiable() {
 		
 		return null;
 	}
