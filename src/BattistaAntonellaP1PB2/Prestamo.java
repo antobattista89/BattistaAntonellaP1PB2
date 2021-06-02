@@ -1,6 +1,6 @@
 package BattistaAntonellaP1PB2;
 
-public abstract class Prestamo {
+public class Prestamo {
 
 	private Integer iD;
 	private Libro libro;
@@ -10,6 +10,20 @@ public abstract class Prestamo {
 		this.iD = iD;
 		this.libro = libro;
 		this.estudiante = estudiante;
+	}
+	
+	public Libro getLibro()
+	{
+
+		return libro;
+		
+	}
+	
+	public Estudiante getEstudiante()
+	{
+
+		return estudiante;
+		
 	}
 	
 }

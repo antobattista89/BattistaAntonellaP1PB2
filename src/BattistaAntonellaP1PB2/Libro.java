@@ -12,6 +12,7 @@ public abstract class Libro {
 		this.codigo = codigo;
 		this.nombre = nombre;
 		this.autor = autor;
+		this.fuePrestado=false;
 	}
 
 	public String getCodigo() {
@@ -36,6 +37,14 @@ public abstract class Libro {
 
 	public void setAutor(String autor) {
 		this.autor = autor;
+	}
+
+	public Boolean getFuePrestado() {
+		return fuePrestado;
+	}
+
+	public void setFuePrestado(Boolean fuePrestado) {
+		this.fuePrestado = fuePrestado;
 	}
 	
 }

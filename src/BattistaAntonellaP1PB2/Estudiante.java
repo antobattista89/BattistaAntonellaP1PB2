@@ -1,22 +1,22 @@
 package BattistaAntonellaP1PB2;
 
-public abstract class Estudiante {
+public class Estudiante {
 
-	private String dni;
+	private Integer dni;
 	private String nombre;
 	private String apellido;
 	
-	public Estudiante(String dni, String nombre, String apellido) {
+	public Estudiante(Integer dni, String nombre, String apellido) {
 		this.dni = dni;
 		this.nombre = nombre;
 		this.apellido = apellido;
 	}
 
-	public String getDni() {
+	public Integer getDni() {
 		return dni;
 	}
 
-	public void setDni(String dni) {
+	public void setDni(Integer dni) {
 		this.dni = dni;
 	}
 

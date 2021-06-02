@@ -10,7 +10,13 @@ public class Geografia extends Libro implements IFotocopiable{
 	@Override
 	public Boolean esFotocopiable() {
 
-		return null;
+		return true;
 	}
+	
+	@Override
+	public String Fotocopiar() {
+		return "Fotocopiando Geografia";
+	}
+
 
 }
